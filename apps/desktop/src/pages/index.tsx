@@ -1,8 +1,7 @@
-const Pages = () => (
-  <>
-    Pages
-    {/* <Route route={$$ticketsPage.route} view={TicketsPage} /> */}
-  </>
-);
+import { Route } from 'atomic-router-react';
+
+import { $$homePage, HomePage } from './home';
+
+const Pages = () => <Route route={$$homePage.route} view={HomePage} />;
 
 export { Pages };

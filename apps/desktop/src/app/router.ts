@@ -2,6 +2,8 @@ import { createHistoryRouter } from 'atomic-router';
 
 import { createBrowserHistory } from 'history';
 
+import { $$homePage } from '@/pages/home';
+
 const history = createBrowserHistory();
 
 const router = createHistoryRouter({
@@ -9,7 +11,7 @@ const router = createHistoryRouter({
     {
       path: '/',
 
-      route: []
+      route: [$$homePage.route]
     }
   ]
 });

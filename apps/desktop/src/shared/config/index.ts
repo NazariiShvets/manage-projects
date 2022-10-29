@@ -1,1 +1,3 @@
-export * from './environment';
+export { environment } from './environment';
+
+export { theme } from './theme';

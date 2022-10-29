@@ -1,0 +1,4 @@
+const MAX_STACK = 8;
+const AUTO_HIDE_DURATION = 3000;
+
+export { AUTO_HIDE_DURATION, MAX_STACK };

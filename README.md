@@ -8,7 +8,7 @@ This turborepo uses [Yarn](https://classic.yarnpkg.com/) as a package manager. I
 
 ### Apps
 
-- `use-viewport`: useViewport hook + ViewportProvider
+- `desktop`: Electon App for Desktop
 
 ### Packages
 
