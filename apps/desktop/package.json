@@ -1,0 +1,53 @@
+{
+   "name": "desktop",
+   "private": true,
+   "version": "0.0.0",
+   "type": "module",
+   "scripts": {
+      "dev": "vite --host --open",
+      "test": "vitest run",
+      "test:coverage": "vitest run --coverage",
+      "test:watch": "vitest --watch --ui",
+      "test:watch:coverage": "vitest --watch --coverage --ui",
+      "build": "tsc && vite build",
+      "lint": "eslint src --fix",
+      "lint:check": "eslint src",
+      "lint:types": "tsc --noEmit",
+      "app:preview": "vite preview",
+      "gen:api": "node ./scripts/swagger.cjs"
+   },
+   "dependencies": {
+      "atomic-router": "^0.7.1",
+      "atomic-router-react": "^0.8.0",
+      "classnames": "^2.3.1",
+      "effector": "^22.3.0",
+      "effector-http-api": "^2.0.6",
+      "effector-react": "^22.1.6",
+      "effector-storage": "^5.0.0",
+      "effector-view": "^2.0.14",
+      "history": "^5.3.0",
+      "patronum": "^1.9.0",
+      "react": "^18.2.0",
+      "react-dom": "^18.2.0",
+      "yup": "^0.32.11"
+   },
+   "devDependencies": {
+      "@babel/preset-env": "^7.18.10",
+      "@babel/preset-react": "^7.18.6",
+      "@faker-js/faker": "^7.6.0",
+      "@testing-library/jest-dom": "^5.16.5",
+      "@testing-library/react": "^13.4.0",
+      "@types/node": "^16.11.44",
+      "@types/object-path": "^0.11.1",
+      "@types/react": "^18.0.15",
+      "@types/react-dom": "^18.0.6",
+      "@types/styled-components": "^5.1.26",
+      "eslint": "8.15.0",
+      "eslint-config-custom": "*",
+      "swagger-typescript-api": "^10.0.1",
+      "tsconfig": "*",
+      "typescript": "4.7.2",
+      "unimported": "^1.20.0",
+      "vite": "^3.0.0"
+   }
+}

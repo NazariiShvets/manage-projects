@@ -1,0 +1,13 @@
+{
+  "api": {
+    "dir": "src/shared/api",
+
+    "source": [
+      {
+        "name": "petstore",
+
+        "url": "PET_STORE_URL"
+      }
+    ]
+  }
+}
